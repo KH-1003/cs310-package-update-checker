@@ -1,0 +1,16 @@
+CS 310 - W4 Package Update Checker
+
+By Kaylee Hinton
+
+## How did you get the list of packages?
+    I updated the list of packages using apt update. Next I used apt
+    --upgradable to list all the packages that can be upgraded and then
+    wrote them to a text file.
+
+## What is the crontab sequence to run the script?
+    The sequence that initiates the cronjob to be ran is "0 0 * * 0" that way
+    it is ran at midnight on every Sunday regardless of month or year.
+
+## Since this script would require root, how do you install a crontab for root?
+    While I used a python package for crontab and installed it into my local codespace, 
+    the normal way you would install a crontab for root is using sudo crontab -e.

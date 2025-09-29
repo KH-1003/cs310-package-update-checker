@@ -1,0 +1,1 @@
+@weekly sudo python3 /workspaces/cs310-package-update-checker/pkg-check.py
